@@ -1,0 +1,74 @@
+.container {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+}
+
+#cartValue {
+    top: 0px;
+    left: 65%;
+    display: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    background-color: black;
+    border: 3px solid white;
+}
+
+#buttons {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 5px 5px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#minus {
+    width: 10%;
+    border: 0px;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: rgb(255, 192, 57);
+}
+
+#plus {
+    width: 10%;
+    border: 0px;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: green;
+}
+
+#inputValue {
+    width: 10%;
+    outline: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 0px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
